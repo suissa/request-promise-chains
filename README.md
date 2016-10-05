@@ -50,3 +50,5 @@ rp(url1)
 
 // FIM
 ```
+
+As you can see you need only return another request-promise with correct options and DONE!
