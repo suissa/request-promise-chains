@@ -1,0 +1,30 @@
+{
+  "name": "request-promise-chains",
+  "version": "1.0.0",
+  "description": "How chain requests with promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suissa/request-promise-chains.git"
+  },
+  "keywords": [
+    "request",
+    "promise",
+    "chain",
+    "webschool",
+    "suissa"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/suissa/request-promise-chains/issues"
+  },
+  "homepage": "https://github.com/suissa/request-promise-chains#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
