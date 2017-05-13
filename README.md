@@ -5,19 +5,19 @@
 It´s pretty easy, look:
 
 ```js
-let request = require('request')
-let rp = require('request-promise')
+const request = require('request')
+const rp = require('request-promise')
 
-let options = {
+const options = {
   uri: '',
   headers: {
     'User-Agent': 'Suissa-Chain-of-Requests'
   },
   json: true
 }
-let url1 = options
-let url2 = options
-let url3 = options
+const url1 = options
+const url2 = options
+const url3 = options
 
 const user = 'suissa'
 url1.uri = 'https://api.github.com/users/' + user
