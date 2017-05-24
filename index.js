@@ -39,6 +39,6 @@ rp(url1)
   .then(cb1)
   .then(cb2)
   .then(cb3)
-  .catch(err => console.log)
+  .catch(console.log)
 
 // FIM
